@@ -1,4 +1,4 @@
-FROM gcr.io/google-containers/fluentd-elasticsearch:v2.0.4
+FROM gcr.io/google-containers/fluentd-elasticsearch:v2.3.2
 
 RUN set -ex \
     && gem install --no-document fluent-plugin-kafka \
